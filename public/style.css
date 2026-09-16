@@ -1,0 +1,203 @@
+/* Configuração básica da página */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f0e8;
+    color: #2d211c;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    padding: 20px 50px;
+    background-color: white;
+    position: relative;
+}
+
+.cabecalho h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.menu a {
+    color: #2d211c;
+    text-decoration: none;
+    margin: 15px;
+}
+
+
+/* INÍCIO */
+
+.inicio {
+    background-color: #955034;
+    color: white;
+    padding: 50px;
+}
+
+.texto-inicio {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.texto-inicio h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.texto-inicio h3 {
+    font-size: 25px;
+}
+
+.imagem-inicio {
+    display: inline-block;
+    width: 45%;
+    margin-left: 40px;
+}
+
+.imagem-inicio img {
+    width: 100%;
+}
+
+
+/* BOTÃO */
+
+.botao {
+    display: inline-block;
+    background-color: white;
+    color: #2d211c;
+    padding: 12px 30px;
+    margin-top: 15px;
+    text-decoration: none;
+    border: 1px solid #2d211c;
+}
+
+
+/* SOBRE */
+
+.sobre {
+    padding: 50px;
+    background-color: #f4f0e8;
+}
+
+.artigo-sobre {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.artigo-sobre h2 {
+    font-size: 35px;
+}
+
+.imagem-sobre {
+    display: inline-block;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.imagem-sobre img {
+    width: 100%;
+}
+
+
+/* DESTAQUES */
+
+.destaques {
+    background-color: #78866b;
+    color: white;
+    padding: 40px 50px;
+}
+
+.destaques h2 {
+    font-size: 35px;
+}
+
+.lista-artigos {
+    text-align: center;
+}
+
+.lista-artigos .card {
+    background-color: white;
+    color: #2d211c;
+    display: inline-block;
+    width: 27%;
+    margin: 15px;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.lista-artigos .card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.lista-artigos .card h3 {
+    margin-top: 15px;
+}
+
+
+/* FRASE */
+
+.frase {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+}
+
+
+/* FORMULÁRIO */
+
+.contato {
+    padding: 40px 50px;
+}
+
+.formulario {
+    width: 400px;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 15px;
+}
+
+.formulario input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.formulario button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #955034;
+    color: white;
+    border: none;
+}
+
+
+/* RODAPÉ */
+
+.rodape {
+    background-color: #33231c;
+    color: white;
+    padding: 30px 50px;
+}
+
+.rodape h2 {
+    margin: 0;
+}
+
+.rodape p {
+    display: inline-block;
+    margin-right: 40px;
+}
